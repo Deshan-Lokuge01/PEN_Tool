@@ -7,10 +7,6 @@
   <img src="https://img.shields.io/badge/Status-Prototype-lightgrey" />
 </p>
 
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/ESP32_DevKitC_V4_top_view.jpg/320px-ESP32_DevKitC_V4_top_view.jpg" width="300"/>
-</p>
-
 ---
 
 ## 🧠 Project Overview
@@ -141,8 +137,17 @@ It offers both **offensive and defensive capabilities** for ethical hackers and 
 </div>
 
 ---
+## 🧩 Fritzing Sketch
 
+<div align="center">
 
+<img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/Fritzing%20sketch.png" alt="Demonstration Activity" width="600"/>
+
+<p><i>Illustration of ESP32 connected to a TFT display and SD card module using color-coded jumper wires.</i></p>
+
+</div>
+
+---
 
 ## 🧪 Real-Time Features
 
@@ -221,6 +226,12 @@ The third image confirms that devices connected to the targeted AP were successf
   <strong>🔐 Secure the air. Audit the spectrum. Go ethical.</strong><br/>
   <code>#IoT #CyberSecurity #PenTesting #ESP32</code>
 </p>
+
+<div align="center">
+  <h3 style="color:orange;">🚧 Note: This project is still in development 🚧</h3>
+  <p><i>Further implementations, improvements, and feature enhancements may be added as development progresses.</i></p>
+</div>
+
 
 <div align="center">
   <h2 style="color: red;">⚠️ Use Only the Authorized Places ⚠️</h2>
