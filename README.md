@@ -92,42 +92,51 @@ It offers both **offensive and defensive capabilities** for ethical hackers and 
 
 ## 📦 Pin Configuration (ESP32 ↔ Modules)
 
+<div align="center">
+
 <table>
   <tr>
     <td>
 
 <b>🔌 ILI9341 TFT Display</b>
 
-| TFT Pin      | ESP32 Pin |
-|--------------|-----------|
-| VCC          | 3.3V      |
-| GND          | GND       |
-| CS           | D17       |
-| RESET        | D5        |
-| DC           | D16       |
-| SDI (MOSI)   | D23       |
-| SCK          | D18       |
-| LED          | D32       |
-| SDO (MISO)   | D19       |
+<table>
+  <tr><th>TFT Pin</th><th>ESP32 Pin</th></tr>
+  <tr><td>VCC</td><td>3.3V</td></tr>
+  <tr><td>GND</td><td>GND</td></tr>
+  <tr><td>CS</td><td>D17</td></tr>
+  <tr><td>RESET</td><td>D5</td></tr>
+  <tr><td>DC</td><td>D16</td></tr>
+  <tr><td>SDI (MOSI)</td><td>D23</td></tr>
+  <tr><td>SCK</td><td>D18</td></tr>
+  <tr><td>LED</td><td>D32</td></tr>
+  <tr><td>SDO (MISO)</td><td>D19</td></tr>
+</table>
 
 </td>
-<td style="width: 50px;"></td>
+
+<td style="width: 50px;"></td> <!-- spacing between tables -->
+
 <td>
 
 <b>💾 SD Card Module</b>
 
-| SD Card Pin | ESP32 Pin |
-|-------------|-----------|
-| CS          | D12       |
-| MOSI        | D23       |
-| MISO        | D19       |
-| SCK         | D18       |
+<table>
+  <tr><th>SD Card Pin</th><th>ESP32 Pin</th></tr>
+  <tr><td>CS</td><td>D12</td></tr>
+  <tr><td>MOSI</td><td>D23</td></tr>
+  <tr><td>MISO</td><td>D19</td></tr>
+  <tr><td>SCK</td><td>D18</td></tr>
+</table>
 
 </td>
   </tr>
 </table>
 
+</div>
+
 ---
+
 
 ## 🧪 Real-Time Features
 
