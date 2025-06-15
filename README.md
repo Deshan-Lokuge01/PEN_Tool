@@ -111,6 +111,11 @@ It offers both **offensive and defensive capabilities** for ethical hackers and 
   <tr><td>SCK</td><td>D18</td></tr>
   <tr><td>LED</td><td>D32</td></tr>
   <tr><td>SDO (MISO)</td><td>D19</td></tr>
+  <tr><td><b>T_CLK</b></td><td>D18</td></tr>
+  <tr><td><b>T_CS</b></td><td>D21</td></tr>
+  <tr><td><b>T_DIN</b></td><td>D23</td></tr>
+  <tr><td><b>T_DO</b></td><td>D13</td></tr>
+  <tr><td><b>T_IRQ</b></td><td>Not Connected</td></tr>
 </table>
 
 </td>
@@ -136,6 +141,7 @@ It offers both **offensive and defensive capabilities** for ethical hackers and 
 </div>
 
 ---
+
 
 
 ## 🧪 Real-Time Features
