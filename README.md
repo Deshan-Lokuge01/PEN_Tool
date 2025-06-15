@@ -1,0 +1,179 @@
+<h1 align="center">📡 Offensive & Defensive Wi-Fi/Bluetooth PEN Tool 🔐</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/ESP32-Based-Yes-blue" />
+  <img src="https://img.shields.io/badge/Bluetooth-Supported-green" />
+  <img src="https://img.shields.io/badge/WiFi-Hacking-orange" />
+  <img src="https://img.shields.io/badge/Status-Prototype-lightgrey" />
+</p>
+
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/ESP32_DevKitC_V4_top_view.jpg/320px-ESP32_DevKitC_V4_top_view.jpg" width="300"/>
+</p>
+
+---
+
+## 🧠 Project Overview
+
+This tool is a **compact, low-cost**, and **portable Wi-Fi/Bluetooth penetration testing device** developed using an **ESP32 microcontroller** with a **2.8" ILI9341 TFT touchscreen**.
+
+It offers both **offensive and defensive capabilities** for ethical hackers and cybersecurity enthusiasts to audit wireless environments effectively.
+
+---
+
+## 🎯 Objectives
+
+- ✅ Identify Wi-Fi/Bluetooth vulnerabilities
+- ✅ Enhance signal strength & reduce noise
+- ✅ Perform real-time and offline wireless security testing
+- ✅ Use an intuitive TFT-based touchscreen UI with stylus
+- ✅ Enable data logging via SD card for offline analysis
+
+---
+
+## ⚙️ Hardware Specifications
+
+| Module              | Description                                      |
+|---------------------|--------------------------------------------------|
+| 🎮 Microcontroller  | ESP32                                            |
+| 📺 Display          | 2.8” ILI9341 TFT touchscreen                     |
+| 💾 Storage          | SD Card module (for saving PCAPs and logs)      |
+| 🔋 Power Supply     | Battery / USB powered (5V input)                |
+| 📡 Antennas         | Optional external Wi-Fi/Bluetooth antenna       |
+
+---
+
+## 🛠️ Features & Capabilities
+
+### 🔧 Offensive Capabilities
+- Beacon Spam (List, Random)
+- Fake SSID Generation
+- Probe Request Sniffing
+- Wi-fi/Bluetooth Jamming
+- Evil Portal Attacks (planned)
+- Rick Roll Beacon Broadcasting
+
+### 🛡️ Defensive Capabilities
+- Detect Deauth Attacks (Detect kick-offed Devices )
+- Detect Bluetooth Skimmers
+- Monitor Packet Density (bar graph)
+
+### 🔍 Wireless Recon
+- Wi-Fi SSID/Channel/RSSI/Encryption scan
+- Bluetooth Classic & BLE scan
+- Packet sniffing (Wi-Fi & Bluetooth)
+- PCAP logging to SD card
+
+### 🎨 UI / UX
+- Touchscreen GUI for mode selection
+- Stylus input support
+- Real-time status and scanning result views
+
+---
+
+## 🖼️ System Block Diagram
+
+<div align="center">
+
+🧩 **Functional Blocks**: ESP32 MCU, TFT Display, SD Card, Power Supply
+
+<img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/EasyEDA_Sketch.jpg" alt="System Diagram" width="600"/>
+
+</div>
+
+---
+
+## 🔋 Power Setup
+
+- Supports both **battery-powered** and **USB operation**
+- Designed for **field-ready deployment**
+
+---
+
+## 📦 Pin Configuration (ESP32 ↔ Modules)
+
+### ILI9341 TFT Display
+
+| TFT Pin      | ESP32 Pin   |
+|--------------|-------------|
+| VCC          | 3.3V        |
+| GND          | GND         |
+| CS           | D17         |
+| RESET        | D5          |
+| DC           | D16         |
+| SDI (MOSI)   | D23         |
+| SCK          | D18         |
+| LED          | D32         |
+| SDO (MISO)   | D19         |
+
+### SD Card Module
+
+| SD Card Pin | ESP32 Pin |
+|-------------|-----------|
+| CS          | D12       |
+| MOSI        | D23       |
+| MISO        | D19       |
+| SCK         | D18       |
+
+---
+
+## 🧪 Real-Time Features
+
+- Wi-Fi Analysis (SSID, channel)
+- Bluetooth Scanning (names, addresses, RSSI)
+- Fake AP Broadcasting
+- Touch-based menu navigation
+- Onboard keyboard for SSID input
+
+---
+
+## 🧊 Offline Analysis
+
+- Store PCAP files on SD card
+- Analyze with tools like **Wireshark**
+- Export logs for documentation/reporting
+
+---
+
+## 📌 Constraints
+
+- ❌ No cloud connectivity (offline-only by design)
+- 📶 Range dependent on antenna quality
+- ⛔ Randomized MAC address generating on devices
+
+---
+
+## 🔄 Enhancements
+
+- Portable casing with 3D-printed enclosure
+- Bluetooth evil portal implementation
+- More advanced TFT GUI with animations
+- Automatic PCAP parsing for quick summaries
+
+---
+
+## 🧑‍💻 Designed and Developed By:
+
+📍 Department of Electrical and Information Engineering  
+📚 Faculty of Engineering, University of Ruhuna  
+📅 April 2025 | Module: EE6304 - Embedded Systems Design
+
+---
+
+## 📎 References
+
+- [ESP32 Documentation](https://docs.espressif.com/projects/esp-idf/en/latest/)
+- [Wireshark - Network Analyzer](https://www.wireshark.org/)
+- [ILI9341 TFT Display Tutorial](https://randomnerdtutorials.com/esp32-ili9341-tft-display-arduino/)
+- [EasyEDA Circuit Design Tool](https://easyeda.com/)
+- [Fritzing Breadboard Designer](https://fritzing.org/)
+
+---
+
+<p align="center">
+  <strong>🔐 Secure the air. Audit the spectrum. Go ethical.</strong><br/>
+  <code>#IoT #CyberSecurity #PenTesting #ESP32</code>
+</p>
+
+
+## Use Only the Authorized Places 
