@@ -29,15 +29,39 @@ It offers both **offensive and defensive capabilities** for ethical hackers and 
 
 ## ⚙️ Hardware Specifications
 
-| Module              | Description                                      |
-|---------------------|--------------------------------------------------|
-| 🎮 Microcontroller  | ESP32                                            |
-| 📺 Display          | 2.8” ILI9341 TFT touchscreen                     |
-| 💾 Storage          | SD Card module (for saving PCAPs and logs)      |
-| 🔋 Power Supply     | Battery / USB powered (5V input)                |
-| 📡 Antennas         | Optional external Wi-Fi/Bluetooth antenna       |
+<div align="center">
+
+<table>
+  <tr>
+    <th>Module</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>🎮 Microcontroller</td>
+    <td>ESP32</td>
+  </tr>
+  <tr>
+    <td>📺 Display</td>
+    <td>2.8” ILI9341 TFT touchscreen</td>
+  </tr>
+  <tr>
+    <td>💾 Storage</td>
+    <td>SD Card module (for saving PCAPs and logs)</td>
+  </tr>
+  <tr>
+    <td>🔋 Power Supply</td>
+    <td>Battery / USB powered (5V input)</td>
+  </tr>
+  <tr>
+    <td>📡 Antennas</td>
+    <td>Optional external Wi-Fi/Bluetooth antenna</td>
+  </tr>
+</table>
+
+</div>
 
 ---
+
 
 ## 🛠️ Features & Capabilities
 
