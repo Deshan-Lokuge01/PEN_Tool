@@ -2,10 +2,10 @@
 
 <p align="center">
 
-  <img src="https://img.shields.io/badge/Bluetooth-Supported-green" />
-  <img src="https://img.shields.io/badge/Bluetooth-Supported-green" />
+  <img src="https://img.shields.io/badge/ESP 32-Based-yellow" />
   <img src="https://img.shields.io/badge/WiFi-Hacking-orange" />
-  <img src="https://img.shields.io/badge/Device-Poratable-red" />
+  <img src="https://img.shields.io/badge/Bluetooth-Supported-green" />
+  <img src="https://img.shields.io/badge/Device-Poratable-magenta" />
 </p>
 
 ---
