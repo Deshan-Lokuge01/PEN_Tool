@@ -92,21 +92,29 @@ It offers both **offensive and defensive capabilities** for ethical hackers and 
 
 ## 📦 Pin Configuration (ESP32 ↔ Modules)
 
-### ILI9341 TFT Display
+<table>
+  <tr>
+    <td>
 
-| TFT Pin      | ESP32 Pin   |
-|--------------|-------------|
-| VCC          | 3.3V        |
-| GND          | GND         |
-| CS           | D17         |
-| RESET        | D5          |
-| DC           | D16         |
-| SDI (MOSI)   | D23         |
-| SCK          | D18         |
-| LED          | D32         |
-| SDO (MISO)   | D19         |
+<b>🔌 ILI9341 TFT Display</b>
 
-### SD Card Module
+| TFT Pin      | ESP32 Pin |
+|--------------|-----------|
+| VCC          | 3.3V      |
+| GND          | GND       |
+| CS           | D17       |
+| RESET        | D5        |
+| DC           | D16       |
+| SDI (MOSI)   | D23       |
+| SCK          | D18       |
+| LED          | D32       |
+| SDO (MISO)   | D19       |
+
+</td>
+<td style="width: 50px;"></td>
+<td>
+
+<b>💾 SD Card Module</b>
 
 | SD Card Pin | ESP32 Pin |
 |-------------|-----------|
@@ -114,6 +122,10 @@ It offers both **offensive and defensive capabilities** for ethical hackers and 
 | MOSI        | D23       |
 | MISO        | D19       |
 | SCK         | D18       |
+
+</td>
+  </tr>
+</table>
 
 ---
 
