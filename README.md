@@ -1,7 +1,7 @@
 <h1 align="center">📡 Offensive & Defensive Wi-Fi/Bluetooth PEN Tool 🔐</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/ESP32-Based-Yes-blue" />
+
 
   <img src="https://img.shields.io/badge/Bluetooth-Supported-green" />
   <img src="https://img.shields.io/badge/WiFi-Hacking-orange" />
