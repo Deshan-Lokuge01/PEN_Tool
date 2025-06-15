@@ -134,6 +134,26 @@ It offers both **offensive and defensive capabilities** for ethical hackers and 
 - Export logs for documentation/reporting
 
 ---
+## 🧩 Offensive & Defensive Activity Demonstration
+
+<div align="center">
+
+<img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/Demonstartion.png" alt="Demonstration Activity" width="600"/>
+
+</div>
+
+### 📝 Description of the Above Demonstration
+
+1️⃣ **Offensive Mode**  
+The first screenshot demonstrates a **Deauthentication Attack** being sent to the target access point: **Dialog 4G 842**. The attack parameters were configured through the PEN Tool's touchscreen interface.
+
+2️⃣ **Defensive Monitoring**  
+The second screenshot shows **real-time monitoring** of the targeted AP's **MAC address and RSSI** using the PEN Tool. This operation is performed ethically within an authorized testing area.
+
+3️⃣ **Validation of Attack**  
+The third image confirms that devices connected to the targeted AP were successfully identified using the ARP table on a terminal. During the deauth attack, these connected clients were **disconnected (kicked off)** as expected.
+
+---
 
 ## 📌 Constraints
 
@@ -162,9 +182,9 @@ It offers both **offensive and defensive capabilities** for ethical hackers and 
 
 ## 📎 References
 
-- [ESP32 Documentation](https://docs.espressif.com/projects/esp-idf/en/latest/)
+- [ESP32 Documentation](https://cdn.sparkfun.com/datasheets/IoT/esp32_datasheet_en.pdf)
 - [Wireshark - Network Analyzer](https://www.wireshark.org/)
-- [ILI9341 TFT Display Tutorial](https://randomnerdtutorials.com/esp32-ili9341-tft-display-arduino/)
+- [ILI9341 TFT Display Tutorial](https://academy.cba.mit.edu/classes/output_devices/TFT/ILI9341.pdf)
 - [EasyEDA Circuit Design Tool](https://easyeda.com/)
 - [Fritzing Breadboard Designer](https://fritzing.org/)
 
