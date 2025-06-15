@@ -222,5 +222,7 @@ The third image confirms that devices connected to the targeted AP were successf
   <code>#IoT #CyberSecurity #PenTesting #ESP32</code>
 </p>
 
+<div align="center">
+  <h2 style="color: red;">⚠️ Use Only the Authorized Places ⚠️</h2>
+</div>
 
-## Use Only the Authorized Places 
