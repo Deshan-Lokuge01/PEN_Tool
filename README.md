@@ -77,7 +77,7 @@ It offers both **offensive and defensive capabilities** for ethical hackers and 
 
 🧩 **Functional Blocks**: ESP32 MCU, TFT Display, SD Card, Power Supply
 
-<img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/EasyEDA_Sketch.jpg" alt="System Diagram" width="600"/>
+<img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/EasyEDA_Sketch.jpg" alt="System Diagram" width="1000"/>
 
 </div>
 
