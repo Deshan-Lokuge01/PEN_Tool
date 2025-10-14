@@ -10,6 +10,24 @@
 
 ---
 
+<div align="center">
+
+🧩 **Esp32 Based PEN Tool**
+
+<table>
+  <tr>
+    <td><img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/logo.jpg" alt="WiFi Sniffers" width="250"/></td>
+    <td><img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/01.jpg" alt="WiFi Options" width="250"/></td>
+    <td><img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/05.jpg" alt="WiFi Sniffers" width="250"/></td>
+    <td><img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/02.2.jpg" alt="WiFi Attacks" width="250"/></td>
+    
+  </tr>
+</table>
+
+</div>
+
+---
+
 ## 🧠 Project Overview
 
 This tool is a **compact, low-cost**, and **portable Wi-Fi/Bluetooth penetration testing device** developed using an **ESP32 microcontroller** with a **2.8" ILI9341 TFT touchscreen**.
@@ -63,34 +81,50 @@ It offers both **offensive and defensive capabilities** for ethical hackers and 
 
 ---
 
-
-## 🛠️ Features & Capabilities
-
-### 🔧 Offensive Capabilities
-- Beacon Spam (List, Random)
-- Fake SSID Generation
-- Probe Request Sniffing
-- Wi-fi/Bluetooth Jamming
-- Evil Portal Attacks (planned)
-- Rick Roll Beacon Broadcasting
-
-### 🛡️ Defensive Capabilities
-- Detect Deauth Attacks (Detect kick-offed Devices )
-- Detect Bluetooth Skimmers
-- Monitor Packet Density (bar graph)
-
-### 🔍 Wireless Recon
-- Wi-Fi SSID/Channel/RSSI/Encryption scan
-- Bluetooth Classic & BLE scan
-- Packet sniffing (Wi-Fi & Bluetooth)
-- PCAP logging to SD card
-
-### 🎨 UI / UX
-- Touchscreen GUI for mode selection
-- Stylus input support
-- Real-time status and scanning result views
+🛠️ Features & Capabilities
+<table>
+<tr valign="top">
+<td width="25%">
+<h4><u>🔧 Offensive Capabilities</u></h4>
+<ul>
+<li>Beacon Spam (List, Random)</li>
+<li>Fake SSID Generation</li>
+<li>Probe Request Sniffing</li>
+<li>Wi-fi/Bluetooth Jamming</li>
+<li>Evil Portal Attacks (planned)</li>
+<li>Rick Roll Beacon Broadcasting</li>
+</ul>
+</td>
+<td width="25%">
+<h4><u>🛡️ Defensive Capabilities</u></h4>
+<ul>
+<li>Detect Deauth Attacks</li>
+<li>Detect Bluetooth Skimmers</li>
+<li>Monitor Packet Density</li>
+</ul>
+</td>
+<td width="25%">
+<h4><u>🔍 Wireless Recon</u></h4>
+<ul>
+<li>Wi-Fi SSID/Channel/RSSI Scan</li>
+<li>Bluetooth Classic & BLE Scan</li>
+<li>Packet Sniffing</li>
+<li>PCAP Logging to SD card</li>
+</ul>
+</td>
+<td width="25%">
+<h4><u>🎨 UI / UX</u></h4>
+<ul>
+<li>Touchscreen GUI</li>
+<li>Stylus Input Support</li>
+<li>Real-time Status Views</li>
+</ul>
+</td>
+</tr>
+</table>
 
 ---
+
 ## 🔬 In-Depth Feature Breakdown
 
 ### 📶 Wi-Fi Operations
@@ -106,56 +140,89 @@ It offers both **offensive and defensive capabilities** for ethical hackers and 
 
 🔍 Wi-fi Sniffing (Silently Listening)
 
-- <span style="color:blue">Probe Request Sniffer: </span>Probe Request Sniffer: 
-Check for probe request, when a wi-fi device is basically pining other devices looking for nearby SSID. It will show up down as a list of mac address. It is going to show any nearby sell phones (looking for AP) If the cell phone is idle, it requests hundreds of probe request for an hour. Determine which wi-fi devices are in any given area.
-
-- <span style="color:blue">Beacon Sniffer:</span> 
-Sniffing out wi-fi AP nearby only.
-
-- Scan and Save Aps List: 
-Save the APs nearby to analyze.
-
-- De-auth Sniffer: 
-Searching for the DE authentication packets. If some one is going to attack we can observe the kick off device (AP) from this (ex: router)
-
-- EAPOL/PMKID Scan: 
-Search for specific packet sent over wi-fi
-Extensive Authentication Protocol over Lan (Four-way handshake packets device uses to authenticate credentials with the access point) Devices uses to authenticate credentials with an AP we used those earlier again to crack through hashcat 
-PMKID- Pairwise Master Key Identifier (Similar to the handshake packets but only one of them and it doesn’t require the device to be de-authenticated and re-authenticated. This way hacker can get the only one file and use that to grab the hash over the Wi-fi network. (Hash- simply a string of data that’s converted to another.
-
-- Raw Capture: 
-Showing around me MACs with RSSI resulting how strong the receiving signal strength.
-
-- Station Sniffer: 
-First select an specific AP (Wi-fi general  Select AP) through saving the AP in the Save AP option. So it sniff out any device that is attach to that chosen AP. (Popping a list)
-Offensive attack: We can give a targeted de-auth attack directly. More over evil twin attack through sending de-auths.
-
-- Signal Monitor: 
-Need to connect to a directly to a network and it shows the signal strength for that network.
+<table>
+  <thead>
+    <tr>
+      <th width="30%">Feature</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><span style="color:blue">Probe Request Sniffer</span></td>
+      <td>Checks for probe requests when a device is searching for nearby SSIDs. It lists the MAC addresses of nearby devices, like phones, helping to determine which devices are in an area.</td>
+    </tr>
+    <tr>
+      <td><span style="color:blue">Beacon Sniffer</span></td>
+      <td>Sniffs out and lists nearby Wi-Fi Access Points (APs) only.</td>
+    </tr>
+    <tr>
+      <td><b>Scan and Save APs List</b></td>
+      <td>Scans for and saves a list of nearby APs for later analysis.</td>
+    </tr>
+    <tr>
+      <td><b>De-auth Sniffer</b></td>
+      <td>Searches for deauthentication packets, allowing you to observe if another device is being kicked off a network during an attack.</td>
+    </tr>
+    <tr>
+      <td><b>EAPOL/PMKID Scan</b></td>
+      <td>Captures specific authentication packets (EAPOL/PMKID) used in WPA/WPA2 handshakes. These can be saved to an SD card and used with tools like Hashcat for offline password cracking.</td>
+    </tr>
+    <tr>
+      <td><b>Raw Capture</b></td>
+      <td>Captures and displays the MAC addresses of all nearby devices along with their RSSI (signal strength).</td>
+    </tr>
+    <tr>
+      <td><b>Station Sniffer</b></td>
+      <td>After selecting a target AP, this feature sniffs out and lists all client devices that are connected to that specific network. This is useful for planning a targeted deauth attack.</td>
+    </tr>
+    <tr>
+      <td><b>Signal Monitor</b></td>
+      <td>Shows the real-time signal strength for the network you are currently connected to.</td>
+    </tr>
+  </tbody>
+</table>
 
 ⚠️ Wi-Fi Attacks
 
-- Beacon Spam List: 
-Spam any Aps and SSIDs that are in in our saved list. Add an AP using the (GeneralAdd AP)
-*Our own AP is in the Network.
-
-- Beacon Spam Random: 
-Create many numbers of APs and send it to the Network. Really annoying thing.
-
-- Rick Roll Beacon: 
-Sends out the Rick Astley’s classic song as SSID phrases.
-
-- Probe Request Flood: 
-Send Probe request to AP over and over in a rapid rate. Can jam the access point. Devices in the network can’t be connected to that AP.
-
-- De-auth Flood: 
-Send the de-authentication packets to the all AP in the network. Just like the demonstration in the above.
-
-- AP Clone Spam: 
-Send out cloned SSIDs for any ither access point in the list.
-
-- Deuth Targeted: 
-First, Select Stations (AP and others devises that are on attached to our network). When running this by selecting one of station (MAC) it will attack on the network and try to de-authenticate just one device. De-off one device.
+<table>
+<thead>
+<tr>
+<th width="30%">Attack Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><b>Beacon Spam List</b></td>
+<td>Floods the network with fake Wi-Fi networks (SSIDs) using a pre-saved list of names.</td>
+</tr>
+<tr>
+<td><b>Beacon Spam Random</b></td>
+<td>Generates and broadcasts a large number of random, fake Access Points to clutter the network, which can be very disruptive.</td>
+</tr>
+<tr>
+<td><b>Rick Roll Beacon</b></td>
+<td>Broadcasts Wi-Fi network names (SSIDs) that are lines from the lyrics of Rick Astley's classic song.</td>
+</tr>
+<tr>
+<td><b>Probe Request Flood</b></td>
+<td>Floods a target Access Point with rapid probe requests, which can jam the AP and prevent legitimate devices from connecting.</td>
+</tr>
+<tr>
+<td><b>De-auth Flood</b></td>
+<td>Broadcasts deauthentication packets to all nearby Access Points, disconnecting all clients within range.</td>
+</tr>
+<tr>
+<td><b>AP Clone Spam</b></td>
+<td>Broadcasts cloned SSIDs of legitimate access points from a saved list to confuse users and facilitate other attacks.</td>
+</tr>
+<tr>
+<td><b>Deauth Targeted</b></td>
+<td>Allows you to select a specific device (client) connected to a network and send targeted deauthentication packets to disconnect only that single device.</td>
+</tr>
+</tbody>
+</table>
 
 ⚙️ Wi-fi General
 
@@ -169,19 +236,50 @@ Typically, Encryptions. Then we can save them into the SD card.
 
 🧩 **Wifi Options (Sniffing / Attacks / General)**
 
-<img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/02.1.png" alt="System Diagram" width="600"/>
+<img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/Picture1.png" alt="System Diagram" width="600"/>
 
 </div>
 
-- Sour Apple: Spoofs Bluetooth Low Energy (BLE) advertisements that mimic Apple devices, potentially causing pop-ups on iPhones and iPads.
-- Swiftpair Spam: Targets Windows 10/11 systems by sending BLE ads that mimic devices ready to pair, causing repeated "Tap to connect" pop-ups.
-- Samsung BLE Spam: Targets Samsung devices by spoofing BLE peripherals they try to auto-recognize, which can trigger connection dialogs.
-- BLE Spam All: A combination mode that runs all BLE spam attacks simultaneously to simulate a Denial of Service (DoS) or stress-test scenario on all nearby BLE     devices.
-
-
-- Bluetooth Sniffer: Scans for and lists nearby Bluetooth devices.
-- Detect Card Skimmers: Specifically looks for known Bluetooth signatures of common credit card skimmers used in ATMs or point-of-sale machines.
-
+<table>
+<thead>
+<tr>
+<th width="30%">Feature / Attack</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="2" align="center"><b>Bluetooth Attacks</b></td>
+</tr>
+<tr>
+<td><b>Sour Apple</b></td>
+<td>Spoofs Bluetooth Low Energy (BLE) advertisements that mimic Apple devices, potentially causing pop-ups on iPhones and iPads.</td>
+</tr>
+<tr>
+<td><b>Swiftpair Spam</b></td>
+<td>Targets Windows 10/11 systems by sending BLE ads that mimic devices ready to pair, causing repeated "Tap to connect" pop-ups.</td>
+</tr>
+<tr>
+<td><b>Samsung BLE Spam</b></td>
+<td>Targets Samsung devices by spoofing BLE peripherals they try to auto-recognize, which can trigger connection dialogs.</td>
+</tr>
+<tr>
+<td><b>BLE Spam All</b></td>
+<td>A combination mode that runs all BLE spam attacks simultaneously to simulate a Denial of Service (DoS) or stress-test scenario on all nearby BLE devices.</td>
+</tr>
+<tr>
+<td colspan="2" align="center"><b>Bluetooth Sniffers</b></td>
+</tr>
+<tr>
+<td><b>Bluetooth Sniffer</b></td>
+<td>Scans for and lists nearby Bluetooth devices.</td>
+</tr>
+<tr>
+<td><b>Detect Card Skimmers</b></td>
+<td>Specifically looks for known Bluetooth signatures of common credit card skimmers used in ATMs or point-of-sale machines.</td>
+</tr>
+</tbody>
+</table>
 ---
 
 ## 🖼️ System Block Diagram
@@ -290,6 +388,22 @@ Typically, Encryptions. Then we can save them into the SD card.
 <img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/Demonstartion.png" alt="Demonstration Activity" width="1000"/>
 
 </div>
+
+### 🎥 Project Demonstration
+
+Check out the video demonstration below to see the PEN Tool in action!
+
+<div align="center">
+
+<a href="https://drive.google.com/file/d/1yZLyzWDHnHL_NuK_8h7tmuGVCGSQ34g1/view?usp=drive_link">
+  <img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/Arp%20and%20the%20mac%20of%20Tareget.jpg" alt="Watch the Demo Video" width="100">
+</a>
+
+</div>
+
+<p align="center">
+  <em>Click the thumbnail above to watch the full video on Google Drive.</em>
+</p>
 
 ### 📝 Description of the Above Demonstration
 
