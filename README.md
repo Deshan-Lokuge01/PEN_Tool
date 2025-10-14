@@ -165,6 +165,14 @@ Typically, Encryptions. Then we can save them into the SD card.
 
 ### 🔵 Bluetooth Operations
 
+<div align="center">
+
+🧩 **Wifi Options (Sniffing / Attacks / General)**
+
+<img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/02.1.png" alt="System Diagram" width="600"/>
+
+</div>
+
 - Sour Apple: Spoofs Bluetooth Low Energy (BLE) advertisements that mimic Apple devices, potentially causing pop-ups on iPhones and iPads.
 - Swiftpair Spam: Targets Windows 10/11 systems by sending BLE ads that mimic devices ready to pair, causing repeated "Tap to connect" pop-ups.
 - Samsung BLE Spam: Targets Samsung devices by spoofing BLE peripherals they try to auto-recognize, which can trigger connection dialogs.
