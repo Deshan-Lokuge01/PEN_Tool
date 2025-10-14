@@ -388,25 +388,29 @@ Typically, Encryptions. Then we can save them into the SD card.
 Check out the video demonstration below to see the PEN Tool in action!
 
 <div align="center">
-
-<a href="https://drive.google.com/file/d/1yZLyzWDHnHL_NuK_8h7tmuGVCGSQ34g1/view?usp=drive_link">
-  <div align="center">
-  
-<table>
-  <tr>
-    <td><img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/Deauth_attacking.jpg" alt="WiFi Sniffers" width="300" height="400"/></td>
-<td><img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/Sniffing.jpg" alt="WiFi Options" width="300" height="400"/></td>
-<td><img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/Arp%20and%20the%20mac%20of%20Tareget.jpg" alt="WiFi Sniffers" width="300" height="400"/></td>
-    
-  </tr>
-</table>
-</div>
-</a>
-
+  <table>
+    <tr>
+      <td>
+        <a href="https://drive.google.com/file/d/1yZLyzWDHnHL_NuK_8h7tmuGVCGSQ34g1/view?usp=drive_link">
+          <img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/Deauth_attacking.jpg" alt="WiFi Sniffers" width="300" height="400"/>
+        </a>
+      </td>
+      <td>
+        <a href="https://drive.google.com/file/d/1yZLyzWDHnHL_NuK_8h7tmuGVCGSQ34g1/view?usp=drive_link">
+          <img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/Sniffing.jpg" alt="WiFi Options" width="300" height="400"/>
+        </a>
+      </td>
+      <td>
+        <a href="https://drive.google.com/file/d/1yZLyzWDHnHL_NuK_8h7tmuGVCGSQ34g1/view?usp=drive_link">
+          <img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/Arp%20and%20the%20mac%20of%20Tareget.jpg" alt="WiFi Sniffers" width="300" height="400"/>
+        </a>
+      </td>
+    </tr>
+  </table>
 </div>
 
 <p align="center">
-  <span style="color:#0000FF;"><u><em>Click the thumbnail above to watch the full video on Google Drive.</em></u></span>
+  <span style="color:#0000FF;"><u><em>Click any thumbnail above to watch the full video on Google Drive.</em></u></span>
 </p>
 
 ### 📝 Description of the Above Demonstration
@@ -429,28 +433,37 @@ The third image confirms that devices connected to the targeted AP were successf
 Check out the video demonstration below to see the PEN Tool in action!
 
 <div align="center">
-
-<a href="https://drive.google.com/file/d/1LyZxGXQPbJabdee5V8nnOsBcqmlk7hgG/view?usp=drive_link">
-  <div align="center">
-  
-<table>
-  <tr>
-    <td><img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/EP%20-%2001.jpg" alt="WiFi Sniffers" width="250" height="350"/></td>
-<td><img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/EP%20-%2002.jpg" alt="WiFi Options" width="250" height="550"/></td>
-<td><img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/EP%20-%2003.jpg" alt="WiFi Sniffers" width="250" height="350"/></td>
-<td><img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/EP%20-%2004.jpg" alt="WiFi Attacks" width="250" height="350"/></td>
-  </tr>
-</table>
-</div>
-</a>
-
+  <table>
+    <tr>
+      <td>
+        <a href="https://drive.google.com/file/d/1LyZxGXQPbJabdee5V8nnOsBcqmlk7hgG/view?usp=drive_link">
+          <img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/EP%20-%2001.jpg" alt="WiFi Sniffers" width="250" height="350"/>
+        </a>
+      </td>
+      <td>
+        <a href="https://drive.google.com/file/d/1LyZxGXQPbJabdee5V8nnOsBcqmlk7hgG/view?usp=drive_link">
+          <img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/EP%20-%2002.jpg" alt="WiFi Options" width="250" height="550"/>
+        </a>
+      </td>
+      <td>
+        <a href="https://drive.google.com/file/d/1LyZxGXQPbJabdee5V8nnOsBcqmlk7hgG/view?usp=drive_link">
+          <img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/EP%20-%2003.jpg" alt="WiFi Sniffers" width="250" height="350"/>
+        </a>
+      </td>
+      <td>
+        <a href="https://drive.google.com/file/d/1LyZxGXQPbJabdee5V8nnOsBcqmlk7hgG/view?usp=drive_link">
+          <img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/EP%20-%2004.jpg" alt="WiFi Attacks" width="250" height="350"/>
+        </a>
+      </td>
+    </tr>
+  </table>
 </div>
 
 <p align="center">
-  <span style="color:#0000FF;"><u><em>Click the thumbnail above to watch the full video on Google Drive.</em></u></span>
+  <span style="color:#0000FF;"><u><em>Click any thumbnail above to watch the full video on Google Drive.</em></u></span>
 </p>
 
-### 📝 Evil Portal Attack: Step-by-Step Demonstration
+### 📝 Evil Portal Attack: Step-by-Step Procedure
 
 The Evil Portal attack creates a captive portal to harvest user credentials. Here’s how it works:
 
