@@ -81,7 +81,7 @@ It offers both **offensive and defensive capabilities** for ethical hackers and 
 
 ---
 
-🛠️ Features & Capabilities
+## 🛠️ Features & Capabilities
 <table>
 <tr valign="top">
 <td width="25%">
@@ -383,12 +383,6 @@ Typically, Encryptions. Then we can save them into the SD card.
 ---
 ## 🧩 Offensive & Defensive Activity Demonstration
 
-<div align="center">
-
-<img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/Demonstartion.png" alt="Demonstration Activity" width="1000"/>
-
-</div>
-
 ### 🎥 Project Demonstration
 
 Check out the video demonstration below to see the PEN Tool in action!
@@ -396,13 +390,23 @@ Check out the video demonstration below to see the PEN Tool in action!
 <div align="center">
 
 <a href="https://drive.google.com/file/d/1yZLyzWDHnHL_NuK_8h7tmuGVCGSQ34g1/view?usp=drive_link">
-  <img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/Arp%20and%20the%20mac%20of%20Tareget.jpg" alt="Watch the Demo Video" width="100">
+  <div align="center">
+  
+<table>
+  <tr>
+    <td><img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/Deauth_attacking.jpg" alt="WiFi Sniffers" width="300" height="400"/></td>
+<td><img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/Sniffing.jpg" alt="WiFi Options" width="300" height="400"/></td>
+<td><img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/Arp%20and%20the%20mac%20of%20Tareget.jpg" alt="WiFi Sniffers" width="300" height="400"/></td>
+    
+  </tr>
+</table>
+</div>
 </a>
 
 </div>
 
 <p align="center">
-  <em>Click the thumbnail above to watch the full video on Google Drive.</em>
+  <span style="color:#0000FF;"><u><em>Click the thumbnail above to watch the full video on Google Drive.</em></u></span>
 </p>
 
 ### 📝 Description of the Above Demonstration
@@ -418,6 +422,50 @@ The third image confirms that devices connected to the targeted AP were successf
 
 ---
 
+## 🧩 Evil Portal Attack Demonstration
+
+### 🎥 Project Demonstration
+
+Check out the video demonstration below to see the PEN Tool in action!
+
+<div align="center">
+
+<a href="https://drive.google.com/file/d/1LyZxGXQPbJabdee5V8nnOsBcqmlk7hgG/view?usp=drive_link">
+  <div align="center">
+  
+<table>
+  <tr>
+    <td><img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/EP%20-%2001.jpg" alt="WiFi Sniffers" width="250" height="350"/></td>
+<td><img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/EP%20-%2002.jpg" alt="WiFi Options" width="250" height="550"/></td>
+<td><img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/EP%20-%2003.jpg" alt="WiFi Sniffers" width="250" height="350"/></td>
+<td><img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/EP%20-%2004.jpg" alt="WiFi Attacks" width="250" height="350"/></td>
+  </tr>
+</table>
+</div>
+</a>
+
+</div>
+
+<p align="center">
+  <span style="color:#0000FF;"><u><em>Click the thumbnail above to watch the full video on Google Drive.</em></u></span>
+</p>
+
+### 📝 Evil Portal Attack: Step-by-Step Demonstration
+
+The Evil Portal attack creates a captive portal to harvest user credentials. Here’s how it works:
+
+1️⃣. Launch the Portal: First, the attacker selects 'Evil Portal' under 'WiFi Attacks' on the PEN Tool.
+
+2️⃣. Broadcast a Fake Network: The tool begins broadcasting a fake Wi-Fi network (e.g., "FreeWifi"), which is configured on the SD card. When a user looks for public Wi-Fi, this network appears as a legitimate option.
+
+3️⃣. Redirect to a Fake Page: Once the victim connects, they are automatically redirected to a fake login page, such as a convincing replica of the Facebook login screen.
+
+4️⃣. Capture Credentials: If the user is deceived and enters their credentials (email and password), they are immediately captured by the PEN Tool.
+
+5️⃣. Display and Save: The stolen email and password are then displayed on the PEN Tool's screen and are also saved to the SD card for later access.
+
+---
+
 ## 📌 Constraints
 
 - ❌ No cloud connectivity (offline-only by design)
@@ -428,7 +476,6 @@ The third image confirms that devices connected to the targeted AP were successf
 
 ## 🔄 Enhancements
 
-- Portable casing with 3D-printed enclosure
 - Bluetooth evil portal implementation
 - More advanced TFT GUI with animations
 - Automatic PCAP parsing for quick summaries
@@ -459,7 +506,7 @@ The third image confirms that devices connected to the targeted AP were successf
 </p>
 
 <div align="center">
-  <h3 style="color:orange;">🚧 Note: This project is still in development 🚧</h3>
+  <h3 style="color:orange;">🚧 This project can be further developed with additional features and specifications. 🚧</h3>
   <p><i>Further implementations, improvements, and feature enhancements may be added as development progresses.</i></p>
 </div>
 
