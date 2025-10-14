@@ -381,6 +381,60 @@ Typically, Encryptions. Then we can save them into the SD card.
 - Export logs for documentation/reporting
 
 ---
+
+## 🧩 Evil Portal Attack Demonstration
+
+### 🎥 Project Demonstration
+
+Check out the video demonstration below to see the PEN Tool in action!
+
+<div align="center">
+  <table>
+    <tr>
+      <td>
+        <a href="https://drive.google.com/file/d/1LyZxGXQPbJabdee5V8nnOsBcqmlk7hgG/view?usp=drive_link">
+          <img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/EP%20-%2001.jpg" alt="WiFi Sniffers" height="350"/>
+        </a>
+      </td>
+      <td>
+        <a href="https://drive.google.com/file/d/1LyZxGXQPbJabdee5V8nnOsBcqmlk7hgG/view?usp=drive_link">
+          <img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/EP%20-%2002.jpg" alt="WiFi Options" height="350"/>
+        </a>
+      </td>
+      <td>
+        <a href="https://drive.google.com/file/d/1LyZxGXQPbJabdee5V8nnOsBcqmlk7hgG/view?usp=drive_link">
+          <img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/EP%20-%2003.jpg" alt="WiFi Sniffers" height="350"/>
+        </a>
+      </td>
+      <td>
+        <a href="https://drive.google.com/file/d/1LyZxGXQPbJabdee5V8nnOsBcqmlk7hgG/view?usp=drive_link">
+          <img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/EP%20-%2004.jpg" alt="WiFi Attacks" height="350"/>
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<p align="center">
+  <span style="color:#0000FF;"><u><em>Click any thumbnail above to watch the full video on Google Drive.</em></u></span>
+</p>
+
+### 📝 Evil Portal Attack: Step-by-Step Procedure
+
+The Evil Portal attack creates a captive portal to harvest user credentials. Here’s how it works:
+
+1️⃣. Launch the Portal: First, the attacker selects 'Evil Portal' under 'WiFi Attacks' on the PEN Tool.
+
+2️⃣. Broadcast a Fake Network: The tool begins broadcasting a fake Wi-Fi network (e.g., "FreeWifi"), which is configured on the SD card. When a user looks for public Wi-Fi, this network appears as a legitimate option.
+
+3️⃣. Redirect to a Fake Page: Once the victim connects, they are automatically redirected to a fake login page, such as a convincing replica of the Facebook login screen.
+
+4️⃣. Capture Credentials: If the user is deceived and enters their credentials (email and password), they are immediately captured by the PEN Tool.
+
+5️⃣. Display and Save: The stolen email and password are then displayed on the PEN Tool's screen and are also saved to the SD card for later access.
+
+---
+
 ## 🧩 Offensive & Defensive Activity Demonstration
 
 ### 🎥 Project Demonstration
@@ -426,58 +480,6 @@ The third image confirms that devices connected to the targeted AP were successf
 
 ---
 
-## 🧩 Evil Portal Attack Demonstration
-
-### 🎥 Project Demonstration
-
-Check out the video demonstration below to see the PEN Tool in action!
-
-<div align="center">
-  <table>
-    <tr>
-      <td>
-        <a href="https://drive.google.com/file/d/1LyZxGXQPbJabdee5V8nnOsBcqmlk7hgG/view?usp=drive_link">
-          <img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/EP%20-%2001.jpg" alt="WiFi Sniffers" width="250" height="350"/>
-        </a>
-      </td>
-      <td>
-        <a href="https://drive.google.com/file/d/1LyZxGXQPbJabdee5V8nnOsBcqmlk7hgG/view?usp=drive_link">
-          <img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/EP%20-%2002.jpg" alt="WiFi Options" width="250" height="550"/>
-        </a>
-      </td>
-      <td>
-        <a href="https://drive.google.com/file/d/1LyZxGXQPbJabdee5V8nnOsBcqmlk7hgG/view?usp=drive_link">
-          <img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/EP%20-%2003.jpg" alt="WiFi Sniffers" width="250" height="350"/>
-        </a>
-      </td>
-      <td>
-        <a href="https://drive.google.com/file/d/1LyZxGXQPbJabdee5V8nnOsBcqmlk7hgG/view?usp=drive_link">
-          <img src="https://github.com/Deshan-Lokuge01/PEN_Tool/blob/main/ScreenShots%20and%20Pictures/EP%20-%2004.jpg" alt="WiFi Attacks" width="250" height="350"/>
-        </a>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<p align="center">
-  <span style="color:#0000FF;"><u><em>Click any thumbnail above to watch the full video on Google Drive.</em></u></span>
-</p>
-
-### 📝 Evil Portal Attack: Step-by-Step Procedure
-
-The Evil Portal attack creates a captive portal to harvest user credentials. Here’s how it works:
-
-1️⃣. Launch the Portal: First, the attacker selects 'Evil Portal' under 'WiFi Attacks' on the PEN Tool.
-
-2️⃣. Broadcast a Fake Network: The tool begins broadcasting a fake Wi-Fi network (e.g., "FreeWifi"), which is configured on the SD card. When a user looks for public Wi-Fi, this network appears as a legitimate option.
-
-3️⃣. Redirect to a Fake Page: Once the victim connects, they are automatically redirected to a fake login page, such as a convincing replica of the Facebook login screen.
-
-4️⃣. Capture Credentials: If the user is deceived and enters their credentials (email and password), they are immediately captured by the PEN Tool.
-
-5️⃣. Display and Save: The stolen email and password are then displayed on the PEN Tool's screen and are also saved to the SD card for later access.
-
----
 
 ## 📌 Constraints
 
